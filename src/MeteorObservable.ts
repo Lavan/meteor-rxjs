@@ -50,7 +50,7 @@ export class MeteorObservable {
         }
       ]));
 
-      return () => handler.stop();
+//      return () => handler.stop();
     });
   }
 }

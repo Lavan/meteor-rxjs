@@ -47,7 +47,7 @@ var MeteorObservable = (function () {
                     }
                 }
             ])));
-            return function () { return handler.stop(); };
+            //      return () => handler.stop();
         });
     };
     return MeteorObservable;
